@@ -15,7 +15,8 @@ function hit(){
         welcome.id="welcome16"
        const yaz= welcome.innerText="WELCOME  UGUR"
 
-       let bos=document.createElement("div")
+       let bos=document.createElement("p")
+       bos.innerHtml="Lütfen yeni bir girdi icin sayfayi yenile devrem"
 
       
       
@@ -25,8 +26,9 @@ function hit(){
        
         video.play();
         ugur.appendChild(welcome)
-       // ugur.appendChild(bos)
+        
         ugur.appendChild(video)
+        ugur.appendChild(bos)
         
 
     }
