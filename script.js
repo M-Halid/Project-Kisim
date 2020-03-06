@@ -1,5 +1,5 @@
 
-alert("Su anki mevcut yazilabilecek kisim arkadaslarimiz\nUgur Karadag ve Yasin Akbastir ")
+alert("Its a Beta version You can only type 4516 or 4527 those are my old school friends School No. :)) ")
 
 function hit(){
     const container=document.querySelector("#container")
